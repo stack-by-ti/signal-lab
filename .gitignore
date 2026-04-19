@@ -1,0 +1,46 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# frontend builds
+.next/
+out/
+
+# backend builds
+dist/
+build/
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# prisma local files
+prisma/dev.db
+prisma/dev.db-journal
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# temp files
+tmp/
+temp/
+
+# coverage
+coverage/
+
+# docker/runtime
+*.pid
+*.seed
